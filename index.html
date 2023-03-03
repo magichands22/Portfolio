@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <script src="https://kit.fontawesome.com/44e81db38f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!--page loader start-->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!--page loader end-->
+
+
+    <!--overlay start-->
+    <div class="overlay">
+
+    </div>
+    <!--overlay end-->
+
+
+    <!--main start-->
+    <div class="main hidden">
+
+        <!--header start-->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">inicio</a></li>
+                                <li><a href="#about" class="nav-item link-item">sobre mi</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                                <li><a href="#contact" class="nav-item link-item">contacto</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--header end-->
+
+
+        <!--home section start-->
+        <section class="home-section align-items-center" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <h1>Agustín Córdoba</h1>
+                        <h2>Desarrollador Fullstack</h2>
+                        <a href="#about" class="btn link-item">Más sobre mi</a>
+                        <a href="#portfolio" class="btn link-item">portfolio</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box">
+                            <img src="img/yo.jpg"  alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--home section end-->
+
+        <!--about section start-->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Sobre mi</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-text">
+                        <p>Soy Full Stack Developer egresado del bootcamp de Henry, en el que llevé adelante +800 horas de programación y realizando proyectos individuales y grupales, aprendiendo en ellos diferentes tecnologías y metodos ágiles SCRUM para el trabajo en equipo. 
+                        Actualmente me dedico a la docencia como profesor de educación física, trabajando para escuelas con niños, adolescentes y adultos hace 5 años, también me desempeño como entrenador personal. 
+                        Anterior a la docencia, trabajé en diferentes áreas como administrativo y chofer privado.</p>
+                        <h3>Habilidades</h3>
+                        <div class="skills">
+                            <div class="skill-item">html</div>
+                            <div class="skill-item">css</div>
+                            <div class="skill-item">javascript</div>
+                            <div class="skill-item">react</div>
+                            <div class="skill-item">redux</div>
+                            <div class="skill-item">nodeJS</div>
+                            <div class="skill-item">express</div>
+                            <div class="skill-item">postgresSQL</div>
+                            <div class="skill-item">sequelize</div>
+                        </div>
+
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" data-target="#education">educacion</button>
+                            <button type="button" class="tab-item" data-target="#experience">experiencia</button>
+                        </div>
+        
+                        <!--education start-->
+        <div class="tab-content active" id="education">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date">08/22 - 03/23</span>
+                    <h4>Henry - Full Stack Web Development</h4>
+                </div>
+            </div>
+            <div class="timeline">
+            <div class="timeline-item">
+                <span class="date">2017 - 2020</span>
+                <h4>Prof.Ed.Física - <span>Instituto Obras</span></h4>
+            </div>
+            </div>
+            <div class="timeline">
+            <div class="timeline-item">
+                <span class="date">Idiomas</span>
+                <h4>Inglés<span></span></h4>
+                <p>Upper-Intermediate (B2)</p><br>
+            </div>
+            </div>
+        </div>
+        
+        <!--education end-->
+        <!--experience start-->
+        <div class="tab-content" id="experience">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="date"> 01/22 - 02/23</span>
+                    <h4>Desarrollador Full-Stack - <span>Henry</span></h4>
+                    <br>Diseño y desarrollo de un e-commerce de venta de productos de hardware con búsqueda, filtros y ordenamiento.
+                        Principales responsabilidades: Trabajo en backend con Nodejs y Postgresql. Armado de rutas. Desarrollo de componentes desde 0 en el front. Deploy. 
+                        Metodología Scrum.
+                        <br></br>
+                        Tecnologías:
+                        Lenguaje: JavaScript
+                        Base de datos: PostgreSQL - Sequelize
+                        Backend: Node Js - Express
+                        Frontend: React - Redux
+                        Estilos: CSS, Bootsrap, Material UI</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="date">2019 - Presente</span>
+                    <h4>Profesor - <span>Colegios privados y estatales</span></h4>
+                    <p>Tareas realizadas: educación física nivel primario, secundario y adultos.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="date"> 2015 - 2017</span>
+                    <h4>Personal administrativo - <span>Almirante Brown SRL</span></h4>
+                    <p>Tareas realizadas: atención al cliente, consultas en base de datos, gestión de compra y ventas, tareas administrativas en general.</p>
+                </div>
+            </div>
+        </div>
+        <!--experience end-->
+                    <a href="CV/Agustín córdoba CV.pdf" target="blank" class="btn" download="Agustín córdoba CV.pdf">descargar cv</a>
+                    <a href="#contact" class="btn link-item">contacto</a>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <!--about section end-->  
+        
+        <!--portfolio section start-->
+    <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Trabajo reciente</h2>
+                </div>
+            </div>
+            <div class="row">
+            
+                <!--portfolio item start-->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/pokedex.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">Aplicación web interactiva</h3>
+                    <button type="button" class="btn view-project-btn">ver proyecto</button>
+                    <div class="portfolio-items-details">
+                        <div class="description">
+                            <p>El proyecto trata sobre una app web que interactúa con una api. Se trata de un "pokedex" de la serie "Pokemon" el cual consulta con una api para obtener la información de los distintos pokemones.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Creado - <span>febrero del 2022</span></li>
+                                <li>Lenguaje - <span>html, css, javascript</span></li>
+                                <li>Rol - <span>frontend</span></li>
+                                <li>Ver online - <span><a href="/pokedex/" target="blank"><strong>click aca</strong></a></span></li>
+                            </ul>
+                        </div>
+                    </div>                                       
+                </div>
+                <!--portfolio item end-->
+                
+                <!--portfolio item start-->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/countries.png" alt="image">
+                    </div>
+                    <h3 class="portfolio-item-title">Single Page Application.</h3>
+                    <button type="button" class="btn view-project-btn">ver proyecto</button>
+                    <div class="portfolio-items-details">
+                        <div class="description">
+                            <p>100% API CRUD de países, incluyendo: búsqueda, filtrado, ordenamiento y creación de actividades.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Creado - <span>12/2022</span></li>
+                                <li>Rol - <span>Full Stack</span></li>
+                                <li>Instrucciones y código - <span><a href="https://github.com/magichands22/PI-countries" target="blank"><strong>click aca</strong></a></span></li>
+                                <li>ver online - <span><a href="https://pi-countries-olive-beta.vercel.app/" target="blank"><strong>click aca</strong></a></span></li>
+                            </ul>
+                        </div>
+                    </div>                                       
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/palace.png" alt="image">
+                    </div>
+                    <h3 class="portfolio-item-title">E-Commerce</h3>
+                    <button type="button" class="btn view-project-btn">ver proyecto</button>
+                    <div class="portfolio-items-details">
+                        <div class="description">
+                            <p>Diseño y desarrollo de un e-commerce de venta de productos de hardware con búsqueda, filtros y ordenamiento.
+                                Principales responsabilidades: Trabajo en backend con Nodejs y Postgresql. Armado de rutas. Desarrollo de componentes desde 0 en el front. Deploy. 
+                                Metodología Scrum.
+                            <br>Tecnologías:
+                            Lenguaje: JavaScript
+                            Base de datos: PostgreSQL - Sequelize
+                            Backend: Node Js - Express
+                            Frontend: React - Redux
+                            Estilos: CSS, Bootsrap, Material UI<br/></p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Creado - <span>02/2023</span></li>
+                                <li>Rol - <span>Full Stack</span></li>
+                                <li>Instrucciones y código - <span><a href="https://github.com/magichands22/GPBack" target="blank"><strong>click aca</strong></a></span></li>
+                                <li>ver online - <span><a href="https://gp-front.vercel.app/" target="blank"><strong>click aca</strong></a></span></li>
+                            </ul>
+                        </div>
+                    </div>                                       
+                </div>
+                <!--portfolio item end-->
+                <!--portfolio item start-->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/divisas.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">Cotizador de divisas</h3>
+                    <button type="button" class="btn view-project-btn">ver proyecto</button>
+                    <div class="portfolio-items-details">
+                        <div class="description">
+                            <p>El proyecto consistió en la elaboración de un simulador, en este caso un cotizador de divisas. El objetivo principal del simulador es solucionar diversas tareas y proporcionar al usuario información de valor.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Creado - <span>Marzo del 2022</span></li>
+                                <li>Lenguaje - <span>html, css, javascript</span></li>
+                                <li>Rol - <span>frontend</span></li>
+                                <li>Ver online - <span><a href="/divisa-main/" target="blank"><strong>click aca</strong></a></span></li>
+                            </ul>
+                        </div>
+                    </div>                                       
+                </div>
+                <!--portfolio item end-->
+                <!--portfolio item start-->
+                <div class="portfolio-item">
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/py.png" alt="">
+                    </div>
+                    <h3 class="portfolio-item-title">Web Playground-Blog</h3>
+                    <button type="button" class="btn view-project-btn">ver proyecto</button>
+                    <div class="portfolio-items-details">
+                        <div class="description">
+                            <p>Un playground es un lugar de pruebas, donde podremos hacer, deshacer, refactorizar, romper, etc.La idea de este proyecto es para que podamos aventurarnos en las funciones más avanzadas, en este caso, de Python y Django, de tal forma que siempre tengamos un lugar donde probar dichas funciones. Esta web tendrá admin, perfiles, registró, páginas y formularios. Se puede ver el blog funcionando descargando los archivos desde el link.</p>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Creado - <span>Abril del 2022</span></li>
+                                <li>Lenguaje - <span>Python - Django</span></li>
+                                <li>Rol - <span>Backend</span></li>
+                                <li>Ver online - <span><a href="https://github.com/magichands22/finalPython" target="blank"><strong>click aca</strong></a></span></li>
+                            </ul>
+                        </div>
+                    </div>                                       
+                </div>
+                <!--portfolio item end-->
+            </div>
+        </div>
+    </section>
+    <!--portfolio section end-->
+
+    <!--contact section start-->
+    <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Contacto</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="input-group">
+                                <input type="text" placeholder="nombre" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="email" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="asunto" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea placeholder="mensaje" class="input-control" required></textarea>
+                            </div>
+                            <div class="subtim-btn">
+                                <button type="submit" class="btn" id="enviarCorreo">enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>email</h3>
+                        <p>cordobajagustin@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>cel</h3>
+                        <p>+54 1136968658</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>follow me</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/magichands22" target="blank">Github</a>
+                            <a href="https://www.linkedin.com/in/agustin-cordoba/" target="blank">Linkedin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section end-->
+
+    </div>
+    <!--main end-->
+
+    <!--portfolio item details popup start-->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+                    <div class="pp-thumbnail">
+                        <img src="img/profile.jpg" alt="">
+                    </div>
+                    <h3>app landing page</h3>
+                </div>
+                <div class="pp-body">
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt temporibus nulla doloribus rerum veniam itaque cum perferendis exercitationem voluptatem. Ipsum eum, repellendus ullam accusamus pariatur praesentium libero quaerat asperiores.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>created - <span>4 dec 2020</span></li>
+                            <li>tech used - <span>html, css</span></li>
+                            <li>role - <span>frontend</span></li>
+                            <li>view online - <span><a href="#" target="blank">www.domain.com</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio item details popup end-->
+
+<script src="script/scripts.js"></script>     
+</body>
+</html>

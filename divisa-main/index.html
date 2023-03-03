@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="U-XA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/main.css">
+  <title>Conversor de divisas</title>
+</head>
+
+<body>
+  
+ 
+  <div class="fondo">
+    <h1 class="titulo">Conversor de divisas</h1>
+  </div>
+
+  <div class="funciona">
+    <form class="conversor" id="form">
+      <input type="text" name="dinero" placeholder="Cantidad de dinero" autocomplete="off">
+      <select id="ingresoDivisa" name="ingresoDivisa" placeholder="Elige tu moneda"></select>
+      <select id="salidaDivisa" name="salidaDivisa" placeholder="Elige tu moneda"></select>
+      <button type="submit">Convertir</button>
+      <input class="resultado" type="text" id="resultado" value="" readonly>
+    </form>
+  </div>
+  
+  <script type="text/javascript" src="./script/script.js">
+  </script>
+</body>
